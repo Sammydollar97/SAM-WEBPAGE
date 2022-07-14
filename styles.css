@@ -1,0 +1,121 @@
+@media (min-width:678px) {
+    .container, .personal-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .city img {
+      max-width: 90%;
+      min-height: 200px;
+    }
+    .city{
+        display: flex;
+        border-bottom: black solid 2px;
+        justify-content: space-between;
+    }
+    .fave-subjects{
+        display: flex;
+    }
+    .History{
+       display: flex;
+       
+  }
+    
+}
+body{
+    
+      font-family: 'Franklin Gothic Medium';
+       background-color: transparent;
+      background-image:url(https://thumbs.gfycat.com/DelayedMiserableHen-size_restricted.gif);                
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;               
+      font-size: larger; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      height: 600vh;        
+
+ 
+}
+.city{
+    border-bottom: black solid 2px;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    border: 3px solid #cc6811;
+    padding: 70px;
+    margin-top: 10%;
+}
+.personal-info{
+    text-align: center; 
+    border-bottom:2px black solid;
+}
+.container div{
+    font-family: 'Koulen', cursive;
+    margin:3px auto;
+    padding: 1em;
+    width: 60%;
+    
+}
+
+.foreign-language{
+    border-bottom:2px black solid;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #0f0f0f;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(255,250,205);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(96, 223, 216);
+  }
+  a {
+    text-decoration: none;
+   }
+   
+  li {
+    list-style: none;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: teal;
+    color: #fff;
+   }
+  
+  .nav-links a {
+    color: #fff;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-size: 32px;
+   }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: lightsalmon
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
